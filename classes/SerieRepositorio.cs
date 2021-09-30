@@ -4,37 +4,42 @@ using DIO.Series.interfaces;
 
 namespace DIO.Series
 {
+    // Classe com as caract. dos objetos série cm implemnt. da interf comum (se fosse filme, doc e etc)
+
     // No momento da implementação, <T> (genérico) vira <Serie>.
     public class SerieRepositorio : IRepositorio<Serie>
     {
+        private List<Serie> listaSerie = new List<Serie>();
+        
         public void Atualiza(int id, Serie entidade)
         {
-            throw new NotImplementedException();
+            listaSerie[id] = entidade;
         }
 
         public void Exclui(int id)
         {
-            throw new NotImplementedException();
+            // Invés de excluir direto da lista, vai marcar como "excluído".
+            listaSerie[id].Excluir();
         }
 
-        public void Insere(Serie entidade)
+        public void Insere(Serie objeto)
         {
-            throw new NotImplementedException();
+            listaSerie.Add(objeto);
         }
 
         public List<Serie> Lista()
         {
-            throw new NotImplementedException();
+            return listaSerie;  //
         }
 
         public int ProximoId()
         {
-            throw new NotImplementedException();
+            return listaSerie.Count;
         }
 
         public Serie RetornaPorId(int id)
         {
-            throw new NotImplementedException();
+            return listaSerie[id];
         }
     }
 }
