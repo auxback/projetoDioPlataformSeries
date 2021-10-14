@@ -13,23 +13,26 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\moorb\\Documents\\Projetos\\Projetos .NET\\DIO Séries\\DIO.Series\\DIO.Series.csproj",
+      "projectUniqueName": "C:\\Users\\moorb\\Documents\\Projetos\\Projetos DIO\\Projetos .NET\\DIO Séries\\DIO.Series\\DIO.Series.csproj",
       "projectName": "DIO.Series",
-      "projectPath": "C:\\Users\\moorb\\Documents\\Projetos\\Projetos .NET\\DIO Séries\\DIO.Series\\DIO.Series.csproj",
+      "projectPath": "C:\\Users\\moorb\\Documents\\Projetos\\Projetos DIO\\Projetos .NET\\DIO Séries\\DIO.Series\\DIO.Series.csproj",
       "packagesPath": "C:\\Users\\moorb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\moorb\\Documents\\Projetos\\Projetos .NET\\DIO Séries\\DIO.Series\\obj\\",
+      "outputPath": "C:\\Users\\moorb\\Documents\\Projetos\\Projetos DIO\\Projetos .NET\\DIO Séries\\DIO.Series\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\moorb\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\moorb\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "projectReferences": {}
         }
       },
@@ -41,6 +44,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -56,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.413\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

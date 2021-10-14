@@ -7,6 +7,9 @@ namespace DIO.Series
         static SerieRepositorio repositorio = new SerieRepositorio();
         static void Main(string[] args)
         {
+            
+
+            
             string opcaoUsuario = ObterOpcaoUsuario();
 
             while (opcaoUsuario.ToUpper() != "X")
